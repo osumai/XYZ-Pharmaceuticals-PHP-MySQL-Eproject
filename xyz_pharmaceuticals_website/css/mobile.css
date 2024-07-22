@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/*ID selector to style the container div*/
+/* CSS Document to be used on devices with a maximum screen width of 480px. */
+
+/* Set the page background colour*/
+body{background-color:#c1F2cF;}
+
+/*ID selector to style the container div*/
+#container
+{
+	width:96%;
+	height:100%;
+}
+

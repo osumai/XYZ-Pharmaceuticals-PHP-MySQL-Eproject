@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7e8e9312-03e4-405a-85d2-7cabf8a65666" name="xyz_pharmacy_website_server" url="http://localhost/xyz_pharmacy/">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\xyz_pharmacy_website" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

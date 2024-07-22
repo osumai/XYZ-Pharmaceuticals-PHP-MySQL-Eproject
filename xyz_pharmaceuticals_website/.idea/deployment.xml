@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="xyz_pharmacy_website_server">
+    <serverData>
+      <paths name="xyz_pharmacy_website_server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="http://localhost/xyz_pharmacy/" local="$PROJECT_DIR$/" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

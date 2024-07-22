@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url("desktop.css");
+@import url("main.css");
+/* CSS Document to be used on devices with a minimum screen width of 481px to a maximum of 800px. */
+
+/* Set the page background properties*/
+body
+{
+    background-color: #05A8AA;
+    background-image: url("../images/brian-mcgowan-6edUbq-qUZs-unsplash.jpg");
+    background-position:center;
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*ID selector to style the container div*/
+#container
+{
+    width:90%;
+}
+
+/**/
+form textarea,  input [type+"text"], input[type="password"], input

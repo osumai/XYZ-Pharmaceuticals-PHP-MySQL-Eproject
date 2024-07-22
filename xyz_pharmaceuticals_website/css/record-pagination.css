@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS document to style records displayed from the database tables*/
+.employees-container
+{
+    max-width: 85%;
+    margin: auto;
+
+}
+.employees-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employee
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f38302;
+    border-radius: .5rem;
+}
+.record-identifier
+{
+    color: #000;
+    font-weight : 700;
+    margin-right: .1rem;
+}
+.record-detail{color:#fff;}
+
+/*Pagination Styles*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.pagination ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pagination li {
+    margin-right: 0.5rem;
+}
+.pagination a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #333;
+}
+.pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.active-page {
+    border: #f80 thin solid;
+    margin: 2px;
+    padding: 2px;
+}
